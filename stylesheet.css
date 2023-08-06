@@ -83,3 +83,76 @@ body {
 img {
     margin: 20px;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    margin-top: 50px;
+    height: auto;
+}
+
+.linkedin, .instagram, .portfolio {
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.instagram {
+    margin-right: 100px;
+    margin-top: 50px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png);
+    background-position: center;
+    background-size: auto 240px;
+    background-repeat: no-repeat;
+}
+.portfolio {
+    margin-left: 100px;
+    margin-top: 30px;
+    background-image: url(https://static-00.iconduck.com/assets.00/github-icon-2048x2048-dpporae2.png);
+    background-position: center;
+    background-size: auto 250px;
+    background-repeat: no-repeat;
+}
+
+.linkedin { 
+    margin-top: 50px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png);
+    background-position: center;
+    background-size: auto 400px;
+    background-repeat: no-repeat;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.saying {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.person {
+    text-align: center;
+}
